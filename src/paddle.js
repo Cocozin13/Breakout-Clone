@@ -1,7 +1,7 @@
 export default class Paddle {
   constructor(game) {
     this.gameWidth = game.gameWidth;
-    this.width = 350;
+    this.width = 150;
     this.height = 15;
 
     this.maxSpeed = 8;

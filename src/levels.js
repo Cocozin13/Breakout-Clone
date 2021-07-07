@@ -8,7 +8,7 @@ level.forEach((row, rowIndex) => {
     if (brick === 1) {
       let position = {
         x: 75 * brickIndex,
-        y: 30 + 0  * rowIndex
+        y: 50 + 93  * rowIndex
       };
       bricks.push(new Brick(game, position ))
     }
